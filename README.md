@@ -5,7 +5,7 @@ coverY: 51
 
 # Rapport de Stage - Master 1 Informatique - PASTE Théo
 
-<div>
+<div data-full-width="false">
 
 <figure><img src=".gitbook/assets/téléchargement (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -21,3 +21,16 @@ Afin de valider ma première année d'étude en Master Informatique à l'Univers
 
 Située à Brest, c'est l'équipe de développement N-Tiers qui m'a accueillie dans leurs locaux pour ce stage.
 
+{% content-ref url="sopra-steria.md" %}
+[sopra-steria.md](sopra-steria.md)
+{% endcontent-ref %}
+
+### Ma Mission
+
+{% content-ref url="ma-mission/automatisation-google-sheet.md" %}
+[automatisation-google-sheet.md](ma-mission/automatisation-google-sheet.md)
+{% endcontent-ref %}
+
+{% content-ref url="ma-mission/les-tickets.md" %}
+[les-tickets.md](ma-mission/les-tickets.md)
+{% endcontent-ref %}
