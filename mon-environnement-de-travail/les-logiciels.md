@@ -20,9 +20,9 @@ Jira est un système de de suivi de bugs et de gestion des incidents développé
 
 ### Eclipse / IntelliJ
 
+Les développement se fond majoritairement via Eclipse, mais passerons progressivement sur IntelliJ.
 
-
-### GIt / SVN
+### Git / SVN
 
 Subversion (ou SVN) est un logiciel de gestion de versions, distribué sous licence Apache3 et développé par Apache Software Fundation.
 
@@ -39,4 +39,4 @@ Git est un logiciel de gestion de versions décentralisé. C'est un logiciel lib
 
 Depuis les années 2010, il s'agit du logiciel de gestion de versions le plus populaire dans le développement logiciel et web, qui est utilisé qur touts les environnements : Windws, Linux et Mac. Git est aussi le système à la base du site web GitHub, le plus important hébergeur de code informatique.
 
-Les projets&#x20;
+Les projets sont majoritairement sous SVN, mais migre progressivement vers Git.
