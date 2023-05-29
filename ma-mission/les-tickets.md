@@ -2,17 +2,9 @@
 
 Durant l'autre partie du stage, j'ai du apprendre à prendre en charge des tickets. Ici, ont en distingue 3 types:
 
-* DIT MC : demande d'intervention technique à une TMA, de type maintenance corrective
-* DIT AS : demande d'intervention technique à une TMA, de type assistance/support (ex: édition, les doc qui remonte pas dans la validation)
-* incident : dysfonctionnement entrainant l'interruption ou la dégradation d'un service (ex: certificats)
-
-La TMA doit aussi géré des tickets:
-
-* certificats (renouvellement de certificats ssl bientôt expiré sur les différents projets)
-* Edition batch (documents qui ne remonte pas dans oriadys -> problème lié à son nom -> l'édition et la confirmation n'ont pas le meme nom (c'est l'édition le pb son timestamp n'est pas le même que celui de la confirmation dans la bdd))
-* edition (rejouer une requete soap. ex: rejouer une requête SOAP afin de re-générer un justificatif)
-* recherche de logs (Une erreur s'affiche lorsque l'utilisateur manipule l'application -> chercher dans les logs l'erreur qui est survenu et en déduire la cause)
-* purge de rejets (qué cé c'est?)
+* Les DIT MC
+* Les DIT AS
+* Les Incidents
 
 ### Incident
 
@@ -25,6 +17,14 @@ Ces demandes indiquent que le problème ne bloque pas l'utilisation de l'applica
 ### Demande d'Intervention Technique à une TMA, de type Maintenance Corrective (DIT MC)
 
 Ces demande indiquent que le problème doit être résolue via du développement. Une fonctionnalité indisponible, une évolution ou encore des tickets fréquent de cause similaire peuvent en être la source.
+
+### Les différentes demandes (a modifier)
+
+* certificats (renouvellement de certificats ssl bientôt expiré sur les différents projets)
+* Edition batch (documents qui ne remonte pas dans oriadys -> problème lié à son nom -> l'édition et la confirmation n'ont pas le meme nom (c'est l'édition le pb son timestamp n'est pas le même que celui de la confirmation dans la bdd))
+* edition (rejouer une requete soap. ex: rejouer une requête SOAP afin de re-générer un justificatif)
+* recherche de logs (Une erreur s'affiche lorsque l'utilisateur manipule l'application -> chercher dans les logs l'erreur qui est survenu et en déduire la cause)
+* purge de rejets (qué cé c'est?)
 
 ### Les Certificats
 

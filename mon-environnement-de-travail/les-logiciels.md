@@ -16,11 +16,15 @@ Durant ce stage, j'ai été amené à rédiger des pages de documentation, autan
 
 ### Jira
 
-Jira est un système de de suivi de bugs et de gestion des incidents développé par Atlassian en 2002
+Jira est un système de suivi de bugs et de gestion des incidents développé par Atlassian en 2002. Il nous permet des gérer les flux de tickets entrant.
 
 ### Eclipse / IntelliJ
 
-Les développement se fond majoritairement via Eclipse, mais passerons progressivement sur IntelliJ.
+Eclipse est un environnement de production de logiciels, principalement en Java, dont la première version date de 2001.
+
+&#x20;IntelliJ est un environnement de développement intégré (en anglais Integrated Development Environment ou IDE) destiné au développement de logiciels informatique Java. Conçu par JetBrain, la première version du framework est rendu publique en 2001.
+
+Les développement se fond majoritairement via Eclipse, mais passerons progressivement sur IntelliJ, étant donné que les projets passerons sur Git plutôt que SVN.
 
 ### Git / SVN
 
