@@ -6,7 +6,7 @@
 ## Mon Environnement de Travail
 
 * [Les Logiciels](mon-environnement-de-travail/les-logiciels.md)
-* [L'architecture](mon-environnement-de-travail/larchitecture.md)
+* [L'Architecture](mon-environnement-de-travail/larchitecture.md)
 
 ## Ma Mission
 

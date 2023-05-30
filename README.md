@@ -25,6 +25,16 @@ Située à Brest, c'est l'équipe de développement N-Tiers qui m'a accueillie d
 [sopra-steria.md](sopra-steria.md)
 {% endcontent-ref %}
 
+### Mon Environnement de Travail
+
+{% content-ref url="mon-environnement-de-travail/les-logiciels.md" %}
+[les-logiciels.md](mon-environnement-de-travail/les-logiciels.md)
+{% endcontent-ref %}
+
+{% content-ref url="mon-environnement-de-travail/larchitecture.md" %}
+[larchitecture.md](mon-environnement-de-travail/larchitecture.md)
+{% endcontent-ref %}
+
 ### Ma Mission
 
 {% content-ref url="ma-mission/automatisation-google-sheet.md" %}
@@ -33,4 +43,14 @@ Située à Brest, c'est l'équipe de développement N-Tiers qui m'a accueillie d
 
 {% content-ref url="ma-mission/les-tickets.md" %}
 [les-tickets.md](ma-mission/les-tickets.md)
+{% endcontent-ref %}
+
+### Conclusion
+
+{% content-ref url="conclusion/avant.md" %}
+[avant.md](conclusion/avant.md)
+{% endcontent-ref %}
+
+{% content-ref url="conclusion/apres.md" %}
+[apres.md](conclusion/apres.md)
 {% endcontent-ref %}
