@@ -59,4 +59,4 @@ Certificats Internes / Certificats Externes
 
 Les certificats traités dans notre cas sont essentiellement (voir exclusivement) des certificats client-interne. Ces certificats sont utilisés pour identifier un client ou un utilisateur, par son authentification auprès du serveur qui établit précisément qui il est.
 
-Le renouvellement des certificats nécessite certaines procédures, qui peuvent changer d'un projet à l'autre. Il existe une page Confluence par certificats sous notre responsabilité. De cette manière, nous possédons à la fois un suivi sur l'état du renouvellement du certificats, mais aussi et surtout la procédure à effectuer pour renouveler ce certificats.
+Le renouvellement des certificats nécessite certaines procédures, qui peuvent changer d'un projet à l'autre. Il existe une page Confluence par certificats sous notre responsabilité. De cette manière, nous possédons à la fois un suivi sur l'état du renouvellement du certificat, mais aussi et surtout la procédure à effectuer pour renouveler ce certificat.
