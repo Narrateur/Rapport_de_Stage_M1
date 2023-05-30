@@ -6,8 +6,14 @@
 ## Mon Environnement de Travail
 
 * [Les Logiciels](mon-environnement-de-travail/les-logiciels.md)
+* [L'architecture](mon-environnement-de-travail/larchitecture.md)
 
 ## Ma Mission
 
 * [Automatisation Google Sheet](ma-mission/automatisation-google-sheet.md)
 * [Les Tickets](ma-mission/les-tickets.md)
+
+## Conclusion
+
+* [avant](conclusion/avant.md)
+* [apres](conclusion/apres.md)
