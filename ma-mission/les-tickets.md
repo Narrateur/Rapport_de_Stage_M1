@@ -8,7 +8,7 @@ Durant l'autre partie du stage, j'ai du apprendre à prendre en charge des ticke
 
 ### Incident
 
-Les incidents sont des dysfonctionnement entraînant l'interruption ou la dégradation d'un service. Il peut s'agir d'une erreur remonté par un utilisateur ou de certificats qui seront bientôt expiré.
+Les incidents sont des dysfonctionnement entraînant l'interruption ou la dégradation d'un service. Il peut s'agir d'une erreur remonté par un utilisateur ou d'un certificat qui sera bientôt expiré par exemple.
 
 ### Demande d'Intervention Technique à une TMA, de type Assistance/Support (DIT AS)
 
@@ -16,7 +16,7 @@ Ces demandes indiquent que le problème ne bloque pas l'utilisation de l'applica
 
 ### Demande d'Intervention Technique à une TMA, de type Maintenance Corrective (DIT MC)
 
-Ces demande indiquent que le problème doit être résolue via du développement. Une fonctionnalité indisponible, une évolution ou encore des tickets fréquent de cause similaire peuvent en être la source.
+Ces demandes indiquent que le problème doit être résolue via du développement. Une fonctionnalité indisponible, une évolution ou encore des tickets fréquent de cause similaire peuvent en être la source.
 
 ## Les différentes catégories de tickets demandes
 
@@ -28,7 +28,7 @@ Il existe 2 moyens d'accéder aux logs: les Minisites et Kibana
 
 Il existe un Minisites par processus (ex: Souscription, Arbitrage, Consultation, etc...), et possèdent les logs des derniers jours (moins d'une semaine).
 
-Kibana est une extension de visualisation de données pour Elasticsearch (un logiciel pour l'indexation et la recherche de données). Ici, il permet la recherche de logs sur une plus longue durée, environ 2 semaines.&#x20;
+**Kibana** est une extension de visualisation de données pour Elasticsearch (un logiciel pour l'indexation et la recherche de données). Ici, il permet la recherche de logs sur une plus longue durée, environ 2 semaines.&#x20;
 
 Au delà de 2 semaines, les logs ne sont plus disponible.
 
@@ -36,7 +36,14 @@ La recherche et la découverte de l'erreur dans les logs permet généralement l
 
 ### Les reconstitution de flux
 
-Il arrive qu'il soit nécessaire de rejouer des requêtes SOAP&#x20;
+Il arrive qu'il soit nécessaire de rejouer des requêtes SOAP, afin de re-générer des documents ou de réexécuter des requêtes qui n'aurait pas abouti.
+
+SOAP (ancien acronyme de _Simple Object Access Protocol_) est un protocole d'échange d'information structurée dans l'implémentation de services web bâti sur XML.
+
+Le protocole SOAP est composé de deux parties :
+
+* une enveloppe, contenant des informations sur le message lui-même afin de permettre son acheminement et son traitement ;
+* un modèle de données, définissant le format du message, c'est-à-dire les informations à transmettre.
 
 ### Les Certificats
 
