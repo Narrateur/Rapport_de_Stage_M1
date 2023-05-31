@@ -20,9 +20,11 @@ La météo s'effectue tout les matins, et consiste à tester, vérifier, les dif
 
 Ma mission ici était d'automatiser la génération du tableau de la Météo du matin présent en bas de la page Confluence `Contrôle du matin - Météo TMA`, à partir de ce fichier résultat. Un fichier Google Sheet a donc été créé, contenant le tableau final sur la première page et le script pour le remplir. Une fois celui-ci terminé, un PDF contenant le tableau remplie est généré.
 
-<figure><img src="../.gitbook/assets/tablea_meteo_du_matin.png" alt=""><figcaption><p>Tableau de la Météo du Matin</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/tableau_original.png" alt=""><figcaption><p>Tableau actuellement utilisé dans Confluence</p></figcaption></figure>
 
 Lors de l’exécution du script, le Google Sheet `Tableau_Météo_du_matin_V1` est mis à jour grâce au fichier `Résultat_Controle_du_matin`. Comme nous souhaitons conserver une trace des différentes météos, un dossier `Archives` contiendra les différents fichiers `Résultat_Controle_du_matin` ainsi qu'un PDF du tableau final issu de `Tableau_Météo_du_Matin`.
+
+<figure><img src="../.gitbook/assets/tablea_meteo_du_matin.png" alt=""><figcaption><p>Tableau de la Météo du Matin</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/fichier_resultat.png" alt=""><figcaption><p>Exemple de fichier résultat</p></figcaption></figure>
 

@@ -20,7 +20,7 @@ Jira est un système de suivi de bugs et de gestion des incidents développé pa
 
 <figure><img src="../.gitbook/assets/jira.png" alt=""><figcaption><p>Page Jira pour le suivi de mes tickets</p></figcaption></figure>
 
-Détails d'un ticket?&#x20;
+Détails du contenu d'un ticket?
 
 ### Eclipse / IntelliJ
 

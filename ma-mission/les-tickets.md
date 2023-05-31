@@ -20,10 +20,8 @@ Ces demande indiquent que le problème doit être résolue via du développement
 
 ### Les différentes demandes (a modifier)
 
-* certificats (renouvellement de certificats ssl bientôt expiré sur les différents projets)
-* Edition batch (documents qui ne remonte pas dans oriadys -> problème lié à son nom -> l'édition et la confirmation n'ont pas le meme nom (c'est l'édition le pb son timestamp n'est pas le même que celui de la confirmation dans la bdd))
-* edition (rejouer une requete soap. ex: rejouer une requête SOAP afin de re-générer un justificatif)
-* recherche de logs (Une erreur s'affiche lorsque l'utilisateur manipule l'application -> chercher dans les logs l'erreur qui est survenu et en déduire la cause)
+* Edition batch (documents qui ne remonte pas dans oriadys -> problème lié à son nom -> l'édition et la confirmation n'ont pas le même nom (c'est l'édition le pb son timestamp n'est pas le même que celui de la confirmation dans la bdd))
+* édition (rejouer une requete soap. ex: rejouer une requête SOAP afin de re-générer un justificatif)
 * purge de rejets (qué cé c'est?)
 
 ### Les Certificats
@@ -60,3 +58,20 @@ Certificats Internes / Certificats Externes
 Les certificats traités dans notre cas sont essentiellement (voir exclusivement) des certificats client-interne. Ces certificats sont utilisés pour identifier un client ou un utilisateur, par son authentification auprès du serveur qui établit précisément qui il est.
 
 Le renouvellement des certificats nécessite certaines procédures, qui peuvent changer d'un projet à l'autre. Il existe une page Confluence par certificats sous notre responsabilité. De cette manière, nous possédons à la fois un suivi sur l'état du renouvellement du certificat, mais aussi et surtout la procédure à effectuer pour renouveler ce certificat.
+
+### Recherche de logs
+
+Dans la grande majorité des cas, la résolution d'un ticket passe avant tout par une recherche dans les logs, afin de trouver l'erreur qui a provoqué la création du ticket.&#x20;
+
+Il existe 2 moyens d'accéder aux logs: les Minisites et Kibana
+
+Il existe un minisites par processus (ex: Souscription, Arbitrage, Consultation, etc...), et possèdent les logs des derniers jours (moins d'une semaine).
+
+Kibana est une extension de visualisation de données pour Elasticsearch (est un logiciel pour l'indexation et la recherche de données). Ici, il permet la recherche de logs sur une plus longue durée, environ 2 semaines.&#x20;
+
+Au delà de 2 semaines, les logs ne sont plus disponible.
+
+La recherche et la découverte de l'erreur dans les logs permet généralement la déduction du problème, et de remonter le problème à la source.&#x20;
+
+### Les éditions
+
