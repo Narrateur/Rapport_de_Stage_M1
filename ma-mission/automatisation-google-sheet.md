@@ -24,8 +24,8 @@ Ma mission ici était d'automatiser la génération du tableau de la Météo du 
 
 Lors de l’exécution du script, le Google Sheet `Tableau_Météo_du_matin_V1` est mis à jour grâce au fichier `Résultat_Controle_du_matin`. Comme nous souhaitons conserver une trace des différentes météos, un dossier `Archives` contiendra les différents fichiers `Résultat_Controle_du_matin` ainsi qu'un PDF du tableau final issu de `Tableau_Météo_du_Matin`.
 
-<figure><img src="../.gitbook/assets/tablea_meteo_du_matin.png" alt=""><figcaption><p>Tableau de la Météo du Matin</p></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/fichier_resultat.png" alt=""><figcaption><p>Exemple de fichier résultat</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/tablea_meteo_du_matin.png" alt=""><figcaption><p>Tableau de la Météo du Matin</p></figcaption></figure>
 
 A l'heure actuelle, la partie UIPath est toujours en développement.&#x20;

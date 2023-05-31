@@ -18,22 +18,36 @@ Ces demandes indiquent que le problème ne bloque pas l'utilisation de l'applica
 
 Ces demande indiquent que le problème doit être résolue via du développement. Une fonctionnalité indisponible, une évolution ou encore des tickets fréquent de cause similaire peuvent en être la source.
 
-### Les différentes demandes (a modifier)
+## Les différentes catégories de tickets demandes
 
-* Edition batch (documents qui ne remonte pas dans oriadys -> problème lié à son nom -> l'édition et la confirmation n'ont pas le même nom (c'est l'édition le pb son timestamp n'est pas le même que celui de la confirmation dans la bdd))
-* édition (rejouer une requete soap. ex: rejouer une requête SOAP afin de re-générer un justificatif)
-* purge de rejets (qué cé c'est?)
+### Recherche de logs
+
+Dans la grande majorité des cas, la résolution d'un ticket passe avant tout par une recherche dans les logs, afin de trouver l'erreur qui a provoqué la création du ticket.&#x20;
+
+Il existe 2 moyens d'accéder aux logs: les Minisites et Kibana
+
+Il existe un Minisites par processus (ex: Souscription, Arbitrage, Consultation, etc...), et possèdent les logs des derniers jours (moins d'une semaine).
+
+Kibana est une extension de visualisation de données pour Elasticsearch (un logiciel pour l'indexation et la recherche de données). Ici, il permet la recherche de logs sur une plus longue durée, environ 2 semaines.&#x20;
+
+Au delà de 2 semaines, les logs ne sont plus disponible.
+
+La recherche et la découverte de l'erreur dans les logs permet généralement la déduction du problème, et de remonter celui-ci à la source.&#x20;
+
+### Les reconstitution de flux
+
+Il arrive qu'il soit nécessaire de rejouer des requêtes SOAP&#x20;
 
 ### Les Certificats
 
 Les certificats SSL permettent aux sites web de passer de HTTP à HTTPS, ce qui est plus sécurisé. Un certificats SSL est un fichier de données hébergé dans le serveur d'origine d'un site Web. Les certificats SSL rendent le chiffrement SSL/TLS possible. Ils contiennent la clé publique du site, l'identité du site web ainsi que des informations connexes. Les appareils qui tentent de communiquer avec le serveur référencerons ce fichier pour obtenir la clé publique et vérifier l'identité du serveur. La clé privé est gardée secrète et sécurisée.
 
-SSL (Secure Socket Layer), plus communément appelé TLS (Transport Layer Security) esy un protocole de chiffrement du trafic Internet et de vérification de l'identité des serveurs. Tout site Web avec une adresse web HTTPS utilise SSL/TLS.
+SSL (Secure Socket Layer), plus communément appelé TLS (Transport Layer Security) est un protocole de chiffrement du trafic Internet et de vérification de l'identité des serveurs. Tout site Web avec une adresse web HTTPS utilise SSL/TLS.
 
 Un certificat SSL contient les informations suivantes:
 
 * Un émetteur, qui indique quel Autorité de Certification a émis le certificats.
-* L'identité dont le certificats apporte la preuve (un nom de domaine, une personne, une organisation, une machine, etc. pour lequel le certificat a été délivré)
+* L'identité dont le certificats apporte la preuve (un nom de domaine, une personne, une organisation, une machine, etc... pour lequel le certificat a été délivré)
 * Une signature numérique de l'Autorité de Certification qui a émis le certificat
 * Les dates de validité (émission / expiration)
 * La clé publique du certificat
@@ -46,7 +60,7 @@ Un certificat SSL contient les informations suivantes:
 Les extensions de fichiers:
 
 * Les Certificate Signing Request (CSR) sont des ".csr"
-* Les certificats sont généralementsont des ".crt"
+* Les certificats sont généralement des ".crt"
 * Les clé privé ".key"
 * L'ensemble {certificat + clé privée}, qui sont normalement protégés par un mot de passe, sont des ".p12" (pour Linux)
 
@@ -59,19 +73,4 @@ Les certificats traités dans notre cas sont essentiellement (voir exclusivement
 
 Le renouvellement des certificats nécessite certaines procédures, qui peuvent changer d'un projet à l'autre. Il existe une page Confluence par certificats sous notre responsabilité. De cette manière, nous possédons à la fois un suivi sur l'état du renouvellement du certificat, mais aussi et surtout la procédure à effectuer pour renouveler ce certificat.
 
-### Recherche de logs
-
-Dans la grande majorité des cas, la résolution d'un ticket passe avant tout par une recherche dans les logs, afin de trouver l'erreur qui a provoqué la création du ticket.&#x20;
-
-Il existe 2 moyens d'accéder aux logs: les Minisites et Kibana
-
-Il existe un minisites par processus (ex: Souscription, Arbitrage, Consultation, etc...), et possèdent les logs des derniers jours (moins d'une semaine).
-
-Kibana est une extension de visualisation de données pour Elasticsearch (est un logiciel pour l'indexation et la recherche de données). Ici, il permet la recherche de logs sur une plus longue durée, environ 2 semaines.&#x20;
-
-Au delà de 2 semaines, les logs ne sont plus disponible.
-
-La recherche et la découverte de l'erreur dans les logs permet généralement la déduction du problème, et de remonter le problème à la source.&#x20;
-
-### Les éditions
-
+###

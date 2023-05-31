@@ -16,4 +16,3 @@
 ## Conclusion
 
 * [Après 10 semaines de stage](conclusion/apres-10-semaines-de-stage.md)
-* [A suivre](conclusion/a-suivre.md)

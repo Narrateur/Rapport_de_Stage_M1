@@ -20,11 +20,23 @@ Jira est un système de suivi de bugs et de gestion des incidents développé pa
 
 <figure><img src="../.gitbook/assets/jira.png" alt=""><figcaption><p>Page Jira pour le suivi de mes tickets</p></figcaption></figure>
 
-Détails du contenu d'un ticket?
+<figure><img src="../.gitbook/assets/process_jira_2.png" alt=""><figcaption></figcaption></figure>
+
+Composition d'un ticket JIRA:
+
+<figure><img src="../.gitbook/assets/details_ticket_jira.png" alt=""><figcaption></figcaption></figure>
+
+* Son type : Incident, DIT AS, DIT MC (voir [Les Tickets](../ma-mission/les-tickets.md))
+* Sa priorité : de 1 à 4, 1 étant le plus prioritaire
+* Son état : Ouvert, Réalisation en Cours, Clos, En Attente, Déploiement en Cours (les états varient en fonction du ticket)
+* Les Données générales et la Description qui donne des informations et le contexte
+* Données complémentaire contient le lien du ticket sur SnowIT, le gestionnaire de ticket côté Suravenir
 
 ### Eclipse / IntelliJ
 
 Eclipse est un environnement de production de logiciels, principalement en Java, dont la première version date de 2001.
+
+<figure><img src="../.gitbook/assets/IntelliJ_IDEA_Icon.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 IntelliJ est un environnement de développement intégré (en anglais Integrated Development Environment ou IDE) destiné au développement de logiciels informatique Java. Conçu par JetBrain, la première version du framework est rendu publique en 2001.
 
@@ -33,6 +45,12 @@ Les développement se fond majoritairement via Eclipse, mais passerons progressi
 ### Git / SVN
 
 Subversion (ou SVN) est un logiciel de gestion de versions, distribué sous licence Apache3 et développé par Apache Software Fundation.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/Apache_Subversion_logo.svg.png" alt="" width="135"><figcaption></figcaption></figure>
+
+</div>
 
 Subversion fonctionne sur le modèle client-serveur, avec :&#x20;
 
