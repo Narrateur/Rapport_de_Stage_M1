@@ -45,6 +45,10 @@ Le protocole SOAP est composé de deux parties :
 * une enveloppe, contenant des informations sur le message lui-même afin de permettre son acheminement et son traitement ;
 * un modèle de données, définissant le format du message, c'est-à-dire les informations à transmettre.
 
+### Purge de rejet
+
+qu'est ce que c'est??
+
 ### Les Certificats
 
 Les certificats SSL permettent aux sites web de passer de HTTP à HTTPS, ce qui est plus sécurisé. Un certificats SSL est un fichier de données hébergé dans le serveur d'origine d'un site Web. Les certificats SSL rendent le chiffrement SSL/TLS possible. Ils contiennent la clé publique du site, l'identité du site web ainsi que des informations connexes. Les appareils qui tentent de communiquer avec le serveur référencerons ce fichier pour obtenir la clé publique et vérifier l'identité du serveur. La clé privé est gardée secrète et sécurisée.
