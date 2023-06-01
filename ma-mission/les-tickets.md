@@ -84,4 +84,12 @@ Les certificats traités dans notre cas sont essentiellement (voir exclusivement
 
 Le renouvellement des certificats nécessite certaines procédures, qui peuvent changer d'un projet à l'autre. Il existe une page Confluence par certificats sous notre responsabilité. De cette manière, nous possédons à la fois un suivi sur l'état du renouvellement du certificat, mais aussi et surtout la procédure à effectuer pour renouveler ce certificat.
 
-###
+### DIT MC
+
+Une DIT MC qui m'a été affecté consiste a modifier un libellé d'erreur.
+
+Certains type de contrat ne peuvent être imprimé. Ainsi lorsque l'utilisateur tente d'imprimer / télécharger le PDF de son contrat, une erreur générique est affiché:
+
+<figure><img src="../.gitbook/assets/DIT_MC_error.png" alt=""><figcaption></figcaption></figure>
+
+L'objectif était donc de modifier ce message afin de le rendre plus explicite, pour les contrats qui remonteraient cette erreur.
