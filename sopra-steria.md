@@ -8,8 +8,10 @@ Sopra Steria est un Entreprise de Service Numérique (ESN) et une société de c
 
 Le site de Brest a pour client une filiale du Crédit Mutuel Arkea, Suravenir, depuis 2021.
 
+
+
 équipe HOST - équipe N-Tiers
 
-
-
 une image a mettre (de brest?)
+
+...
