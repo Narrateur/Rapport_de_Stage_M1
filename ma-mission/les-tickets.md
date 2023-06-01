@@ -47,7 +47,7 @@ Le protocole SOAP est composé de deux parties :
 
 ### Purge de rejet
 
-qu'est ce que c'est??
+Certains incidents vont générer des messages en rejet qui vont être stockés dans des Queues. Lorsque la médiation reçois un message et génère une erreur, celui-ci est remis dans la queue des messages et est rejoué. Il sera rejoué tant qu'il sera remis dans la queue. La purge de rejet consiste donc à supprimer le message en vérifiant au préalable la raison pour laquelle le rejet a été généré.
 
 ### Les Certificats
 
