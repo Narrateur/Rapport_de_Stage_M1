@@ -18,7 +18,7 @@ Ces demandes indiquent que le problème ne bloque pas l'utilisation de l'applica
 
 Ces demandes indiquent que le problème doit être résolue via du développement. Une fonctionnalité indisponible, une évolution ou encore des tickets fréquent de cause similaire peuvent en être la source.
 
-## Les différentes catégories de tickets demandes
+## Les différentes catégories de tickets
 
 ### Recherche de logs
 
