@@ -1,3 +1,7 @@
+---
+description: Automatisation du tableau de bord et du résultat de la Météo
+---
+
 # Automatisation Google Sheet
 
 Une partie du stage consistait à développer des scripts dans des Google Sheets afin d'automatiser certaines tâches redondantes.
@@ -16,16 +20,17 @@ La génération des graphique se contente simplement de recréer les graphiques 
 
 ### La Météo
 
-La météo s'effectue tout les matins, et consiste à tester, vérifier, les différents processus qui se sont exécuté depuis la veille. Une fois ces vérifications faites, un tableau est créé/modifié, puis envoyé au client, afin de le tenir informer quant à l'état des différent processus. La première partie de l'automatisation, dont je ne m'occupe pas, consiste à ne plus faire les vérifications des processus manuellement. Avec UIPath et un ficher excel d'entrée, un fichier excel est généré et contient les status de tout les Jobs des différentes Chaines testées.
+La météo s'effectue tout les matins, et consiste à tester, vérifier, les différents processus qui se sont exécuté depuis la veille. Une fois ces vérifications faites, un tableau est créé/modifié, puis envoyé au client, afin de le tenir informer quant à l'état des différent processus. La première partie de l'automatisation, dont je ne m'occupe pas, consiste à ne plus faire les vérifications des processus manuellement. Avec UIPath et un ficher excel d'entrée, un fichier excel est généré en sortie et contient les statut des différentes Chaines testées.
 
-Ma mission ici était d'automatiser la génération du tableau de la Météo du matin présent en bas de la page Confluence `Contrôle du matin - Météo TMA`, à partir de ce fichier résultat. Un fichier Google Sheet a donc été créé, contenant le tableau final sur la première page et le script pour le remplir. Une fois celui-ci terminé, un PDF contenant le tableau remplie est généré.
+Ma mission ici était d'automatiser la génération du tableau de la Météo du matin présent en bas de la page Confluence `Contrôle du matin - Météo TMA`, à partir de ce fichier résultat. Un fichier Google Sheet a donc été créé, contenant le tableau final sur la première page et le script pour le remplir.&#x20;
 
 <figure><img src="../.gitbook/assets/tableau_original.png" alt=""><figcaption><p>Tableau actuellement utilisé dans Confluence</p></figcaption></figure>
 
-Lors de l’exécution du script, le Google Sheet `Tableau_Météo_du_matin_V1` est mis à jour grâce au fichier `Résultat_Controle_du_matin`. Comme nous souhaitons conserver une trace des différentes météos, un dossier `Archives` contiendra les différents fichiers `Résultat_Controle_du_matin` ainsi qu'un PDF du tableau final issu de `Tableau_Météo_du_Matin`.
+Lors de l’exécution du script, le Google Sheet `Tableau_Météo_du_matin_V1` est mis à jour grâce au fichier `Résultat_Controle_du_matin`. Comme nous souhaitons conserver une trace des différentes météos, un dossier `Archives` contiendra les différents fichiers `Résultat_Controle_du_matin` ainsi que le PDF du tableau final issu de `Tableau_Météo_du_Matin`.
 
 <figure><img src="../.gitbook/assets/fichier_resultat.png" alt=""><figcaption><p>Exemple de fichier résultat</p></figcaption></figure>
 
+La dernière colonne du fichier `Résultat_Controle_du_matin`, Météo, contient le nom de la Chaîne et son statut. C'est cette colonne que le script analyse afin de remplir le tableau.
+
 <figure><img src="../.gitbook/assets/tablea_meteo_du_matin.png" alt=""><figcaption><p>Tableau de la Météo du Matin</p></figcaption></figure>
 
-A l'heure actuelle, la partie UIPath est toujours en développement.&#x20;

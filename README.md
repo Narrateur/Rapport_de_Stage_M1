@@ -47,6 +47,6 @@ Située à Brest, c'est l'équipe de développement N-Tiers qui m'a accueillie d
 
 ### Conclusion
 
-{% content-ref url="conclusion/mon-bilan.md" %}
-[mon-bilan.md](conclusion/mon-bilan.md)
+{% content-ref url="conclusion/apres-10-semaines-de-stage.md" %}
+[apres-10-semaines-de-stage.md](conclusion/apres-10-semaines-de-stage.md)
 {% endcontent-ref %}
